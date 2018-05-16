@@ -6,10 +6,11 @@ layout: default
   {% for post in site.posts %}
     <article class="post">
 
-      <div font-size=30px><a color=inherit href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> </div>
-      <div align=right>
+	<div><font color=inherit size=30px><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <div align=right>
 	 {{ post.date | date: "%B %e, %Y"}}
-      </div>
+        </div>
+      </div
 
     </article>
   {% endfor %}
