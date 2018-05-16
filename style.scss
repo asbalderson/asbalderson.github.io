@@ -273,6 +273,10 @@ nav {
     font-family: $helveticaNeue;
     color: $darkerGray;
     font-weight: bold;
+    
+    a {
+      color: inherit;
+    }
   }
 
 }
