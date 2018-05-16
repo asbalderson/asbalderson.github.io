@@ -5,12 +5,10 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
-
-	<div><font color=inherit size=30px><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        <div align=right>
-	 {{ post.date | date: "%B %e, %Y"}}
-        </div>
-      </div
+      <div>
+         {{ post.date | date: "%B %e, %Y"}}
+      </div>
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> </h1>
 
     </article>
   {% endfor %}
