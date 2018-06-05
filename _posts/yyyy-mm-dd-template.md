@@ -8,5 +8,5 @@ title: template
 {% highlight python %}
 code
 
-{% endhilight %}
+{% endhighlight %}
 
